@@ -1,0 +1,54 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.background {
+    margin: 0 auto;
+    max-width: 1200px;
+    height: auto;
+    padding: 0;
+   
+    
+}
+
+.background img {
+    margin: 0;
+    padding:  0;
+    width: 100%;
+    height: auto;
+    
+    
+}
+
+.play {
+    position: relative;
+    margin: 0 auto;
+    bottom: 60vh;
+    left: 40vw;
+
+}
+
+#cow {
+    position: relative;
+    bottom: 10vh;
+    left: 10vh;
+}
+
+.play button {
+    padding: 20px;
+    background: red;
+    cursor: pointer;
+    border-radius: 10%;
+    border: none;
+
+}
+
+.play a {
+    text-decoration: none;
+    color: white;
+}
+h1 {
+    margin: 0;
+    padding: 0;
+}
