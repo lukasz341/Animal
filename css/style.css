@@ -4,6 +4,7 @@ body {
     padding: 0;
 }
 .background {
+    position: relative;
     margin: 0 auto;
     max-width: 1200px;
     height: auto;
@@ -22,18 +23,13 @@ body {
 }
 
 .play {
-    position: relative;
+    position: absolute;
     margin: 0 auto;
-    bottom: 60vh;
-    left: 40vw;
+    top: 40%;
+    left: 40%;
 
 }
 
-#cow {
-    position: relative;
-    bottom: 10vh;
-    left: 10vh;
-}
 
 .play button {
     padding: 20px;
@@ -47,8 +43,51 @@ body {
 .play a {
     text-decoration: none;
     color: white;
+    cursor: pointer;
 }
 h1 {
     margin: 0;
     padding: 0;
+}
+
+
+button img {
+    margin: 0;
+    padding:  0;
+    width: 100%;
+    height: auto;
+    
+    
+}
+
+.background a {
+    max-width: 10%;
+    height: auto;
+}
+#chicken {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
+
+#cow {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+}
+
+#horse {
+    position: absolute;
+    bottom: 10%;
+    right: 40%;
+    cursor: pointer;
+    transition: 1s;
+    
+}
+
+#horse:hover {
+    
+    transform: rotate(20deg) translate(-20px, -10px)  ;
+   
+    transition: 1s;
 }
