@@ -3,15 +3,24 @@ function Animal(name,sound){
     this.sound=sound; 
   }
   
+
   Animal.prototype.event= function(){
    var self=this;
+   var audio = new Audio(self.sound);
     function playMusic() {
-      console.log(self.name);
-    var audio = new Audio(self.sound);
     audio.play();
+    button.classList.add(self.name);
   }
+
+  function deleteClass(){
+    button.classList.remove(self.name);
+    audio.pause();
+    audio.currentTime = 0;
+  }
+
     var button=document.getElementById(this.name);
     button.addEventListener("click", playMusic);
+    button.addEventListener("mouseout", deleteClass);
   }
   
   var cow =new Animal("cow","sound/cow.mp3");

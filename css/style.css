@@ -6,7 +6,7 @@ body {
 .background {
     position: relative;
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1000px;
     height: auto;
     padding: 0;
    
@@ -18,6 +18,7 @@ body {
     padding:  0;
     width: 100%;
     height: auto;
+    max-height: 100vh;
     
     
 }
@@ -61,19 +62,23 @@ button img {
 }
 
 .background a {
-    max-width: 10%;
+    max-width: 15%;
     height: auto;
 }
 #chicken {
     position: absolute;
     bottom: 10%;
-    left: 10%;
+    left: 10%; 
+    cursor: pointer;
+    transition: 1s;
 }
 
 #cow {
     position: absolute;
     bottom: 10%;
     right: 10%;
+    cursor: pointer;
+    transition: 1s;
 }
 
 #horse {
@@ -85,9 +90,22 @@ button img {
     
 }
 
-#horse:hover {
+.horse {
+    transform: rotate(20deg) translate(-30px, -20px)  ;
     
-    transform: rotate(20deg) translate(-20px, -10px)  ;
-   
-    transition: 1s;
+     transition: 1s; 
 }
+
+.chicken {
+    transform: rotate(20deg) translate(40px, -20px)  ;
+    
+     transition: 1s; 
+}
+
+.cow {
+    transform: rotate(20deg) translate(-40px, -20px)  ;
+    
+     transition: 1s; 
+}
+
+
