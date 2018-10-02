@@ -72,6 +72,14 @@ button img {
     cursor: pointer;
     transition: 1s;
 }
+#pig {
+    position: absolute;
+    bottom: 5%;
+    left: 20%; 
+    cursor: pointer;
+    transition: 1s;
+}
+
 
 #cow {
     position: absolute;
@@ -85,6 +93,15 @@ button img {
     position: absolute;
     bottom: 10%;
     right: 40%;
+    cursor: pointer;
+    transition: 1s;
+    
+}
+
+#rooster {
+    position: absolute;
+    top: 10%;
+    left: 50%;
     cursor: pointer;
     transition: 1s;
     
@@ -108,4 +125,11 @@ button img {
      transition: 1s; 
 }
 
+
+
+.rooster {
+    transform: rotate(20deg) translate(-40px, -20px)  ;
+    
+     transition: 1s; 
+}
 

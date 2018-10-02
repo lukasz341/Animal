@@ -24,11 +24,13 @@ function Animal(name,sound){
   }
   
   var cow =new Animal("cow","sound/cow.mp3");
-  var duck=new Animal("duck","sound/duck.mp3");
+ // var duck=new Animal("duck","sound/duck.mp3");
   var chicken=new Animal("chicken","sound/chicken.mp3");
   var horse=new Animal("horse","sound/cow.mp3");
+  var rooster=new Animal("rooster","sound/chicken.mp3");
  
   cow.event();
-  duck.event();
+  //duck.event();
   chicken.event();
   horse.event();
+  rooster.event();
