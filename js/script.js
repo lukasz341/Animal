@@ -28,9 +28,15 @@ function Animal(name,sound){
   var chicken=new Animal("chicken","sound/chicken.mp3");
   var horse=new Animal("horse","sound/cow.mp3");
   var rooster=new Animal("rooster","sound/chicken.mp3");
+  var pig=new Animal("pig", "sound/chicken.mp3");
+  var farmer=new Animal("farmer", "sound/chicken.mp3");
+  var tractor=new Animal("tractor", "sound/chicken.mp3");
  
   cow.event();
   //duck.event();
   chicken.event();
   horse.event();
   rooster.event();
+  pig.event();
+  farmer.event();
+  tractor.event();
