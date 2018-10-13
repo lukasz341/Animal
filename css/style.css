@@ -62,13 +62,13 @@ button img {
 }
 
 .background a {
-    max-width: 15%;
+    max-width: 12%;
     height: auto;
 }
 #chicken {
     position: absolute;
     bottom: 10%;
-    left: 5%; 
+    left: 7%; 
     cursor: pointer;
     transition: 1s;
 }
@@ -107,10 +107,18 @@ button img {
     
 }
 
+#duck {
+    position: absolute;
+    bottom: 10%;
+    left: 25%; 
+    cursor: pointer;
+    transition: 1s;
+}
+
 #farmer {
     position: absolute;
     bottom: 30%;
-    left: 30%; 
+    left: 50%; 
     cursor: pointer;
     transition: 1s;
     max-width: 10%;
@@ -122,7 +130,7 @@ button img {
     bottom: 30%;
     left: 10%; 
     cursor: pointer;
-    transition: 2s;
+    transition: 3s;
     max-width: 20%;
     
 }
@@ -171,6 +179,12 @@ button img {
      transition: 1s; 
 }
 
+.duck {
+    transform: rotate(20deg) translate(40px, -20px)  ;
+    
+     transition: 1s; 
+}
+
 .farmer {
     transform: translate(0px, -30px)  ;
     
@@ -180,7 +194,7 @@ button img {
 .tractor {
     transform: translate(100%, 0px)  ;
     
-     transition: 2s; 
+     transition: 3s; 
 }
 
 
