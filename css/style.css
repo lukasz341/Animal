@@ -81,6 +81,27 @@ button img {
 }
 
 
+#dog {
+    position: absolute;
+    bottom: 50%;
+    right: 20%; 
+    cursor: pointer;
+    transition: 1s;
+    max-width: 10%;
+}
+
+
+#cat {
+    position: absolute;
+    bottom: 45%;
+    left: 40%; 
+    cursor: pointer;
+    transition: 1s;
+    max-width: 10%;
+}
+
+
+
 #pig {
     position: absolute;
     bottom: 10%;
@@ -118,7 +139,7 @@ button img {
 #farmer {
     position: absolute;
     bottom: 30%;
-    left: 50%; 
+    right: 8%; 
     cursor: pointer;
     transition: 1s;
     max-width: 10%;
@@ -130,7 +151,7 @@ button img {
     bottom: 30%;
     left: 10%; 
     cursor: pointer;
-    transition: 3s;
+    transition: 5s;
     max-width: 20%;
     
 }
@@ -192,10 +213,21 @@ button img {
 }
 
 .tractor {
-    transform: translate(100%, 0px)  ;
+    transform: translate(100%, 0px)  ;   
+     transition: 5s; 
+}
+
+.dog {
+    transform: translate(-150%, 20%);   
+     transition: 3s; 
+}
+
+.cat {
+    transform: translate(-1%, -180%);
     
      transition: 3s; 
 }
+
 
 
 
